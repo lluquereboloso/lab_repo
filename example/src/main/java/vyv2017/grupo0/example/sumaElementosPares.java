@@ -1,5 +1,5 @@
 
-package pruebasDelTad;
+package vyv2017.grupo0.example;
 
 import tadPila.Pila;
 import tadPila.PilaVacia;

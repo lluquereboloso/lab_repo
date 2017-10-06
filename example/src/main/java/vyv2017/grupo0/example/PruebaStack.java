@@ -1,4 +1,4 @@
-package pruebaClaseStack;
+package vyv2017.grupo0.example;
 import java.util.Stack;
 import ficheroBinario.RegistroAlumno;
 
@@ -32,10 +32,10 @@ public class PruebaStack {
  }
    static void pruebaPilaRegistroAlumno () {
 		Stack<RegistroAlumno> pila = new Stack<RegistroAlumno> ();
-    	RegistroAlumno alumno = new RegistroAlumno ("b0024","López","Pepe","pepe@mail.es",1993,7);
+    	RegistroAlumno alumno = new RegistroAlumno ("b0024","Lï¿½pez","Pepe","pepe@mail.es",1993,7);
 
 		pila.push(alumno); 
-		alumno = new RegistroAlumno ("b0038","Cuenca","José","jose@mail.es",1993,6);
+		alumno = new RegistroAlumno ("b0038","Cuenca","Josï¿½","jose@mail.es",1993,6);
 		pila.push(alumno);
 		System.out.println (pila.size());
 		System.out.println (pila.pop().aCadena());

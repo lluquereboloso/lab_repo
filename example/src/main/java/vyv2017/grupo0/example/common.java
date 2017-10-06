@@ -1,5 +1,6 @@
-   
- public void mostrar (Pila p) {
+package vyv2017.grupo0.example;
+
+public void mostrar (Pila p) {
 	int elem;
 	if (!p.pilaVacia()) {
 		elem = p.desapilar();
@@ -20,4 +21,4 @@
 	  mostrar(O);
 	  size = O.size();
 	  System.out.println ("The size is " + size);	  
-  }
+	  }
